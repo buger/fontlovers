@@ -1,0 +1,133 @@
+body {
+  margin: 0 auto;
+}
+
+#font-preview {
+  padding: 0 100px;
+}
+
+.layout {
+  padding: 20px;
+}
+
+.layout h1 {
+  font-size: 3em;
+  font-weight: bold;
+
+  overflow: hidden;
+}
+
+.layout ul {
+  margin-top: 0.5em;
+}
+
+.layout ul li {
+  list-style: disc;
+  list-style-position: inside;
+  margin-top: 1em;
+}
+
+.layout h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+
+  overflow: hidden;
+}
+
+.layout h2 {
+  font-size: 2em;
+  font-weight: bold;
+
+  overflow: hidden;
+}
+
+.layout section {
+  position: relative;
+  margin-top: 2em;
+
+  overflow: hidden;
+}
+
+.layout .column {
+  display: table-cell;
+  padding-left: 2em;
+}
+
+.layout .column:first-child {
+  padding-left: 0;
+}
+
+.layout.masked * {
+  cursor: pointer;
+}
+
+.layout.masked {
+  font-size: 30%;
+  padding: 0;
+}
+
+.layout section {
+  max-height: 31em;
+  overflow: hidden;
+}
+
+.layout.masked > div {
+  opacity: 0.6;
+  margin-bottom: 10em;
+}
+
+.layout.masked > div:hover {
+  opacity: 1;
+  color: pointer;
+}
+
+.layout.masked p, .layout.masked li {
+  background-color: #eee;
+  color: #eee;
+}
+
+  
+.layout.masked h2, .layout.masked h3, .layout.masked.h1, .layout.masked header *, .layout.masked footer * {
+  background-color: #bbb;
+  color: #bbb;
+}
+
+.layout p {
+  line-height: 130%;
+  margin-top: 1em;
+  overflow: hidden;
+}
+
+.layout section p:first-child {
+  margin-top: 0;
+}
+
+.layout footer {
+  clear: both;
+}
+
+.layout footer p {
+  max-height: 1.3em;
+}
+
+#font-preview > div {
+  display: table-cell;
+  vertical-align: top;
+}
+
+#font-preview .panel {
+  width: 200px;
+  padding: 20px;
+}
+
+#font-preview .panel .select_layout {
+  width: 150px;
+}
+
+.menu_right .column:first-child {
+  width: 70%;
+}
+
+.menu_left .column:first-child {
+  width: 30%;
+}
