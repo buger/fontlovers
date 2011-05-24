@@ -1,5 +1,5 @@
 var lorem_ipsum = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis risus a urna feugiat mollis in vel elit. Vivamus nibh ipsum, ultrices in tristique vitae, bibendum id orci. Praesent mollis mollis auctor. Nam sapien purus, placerat in aliquam lacinia, scelerisque at diam. Morbi nec enim non metus porttitor adipiscing nec nec urna. Nunc malesuada lectus dui, eget convallis diam. Nulla hendrerit imperdiet magna nec feugiat. Quisque malesuada vehicula facilisis. Morbi nibh erat, vehicula eget pulvinar non, aliquam vel magna. Donec faucibus viverra urna, ac mollis risus tempor ut. Praesent erat quam, gravida at tristique a, tempus vel leo. Nulla neque elit, ultrices pretium varius ut, egestas vel arcu. Vivamus eros ligula, rhoncus in interdum sit amet, mattis at urna. Duis at risus metus, vel varius ligula. Pellentesque non risus nec urna eleifend mollis ac at eros. Nunc pellentesque lobortis nisi id varius. ";
-lorem_ipsum += lorem_ipsum + lorem_ipsum;
+lorem_ipsum += lorem_ipsum + lorem_ipsum + lorem_ipsum + lorem_ipsum + lorem_ipsum;
 
 var sample_list = "";
 for (var i=0; i<6; i++) {
